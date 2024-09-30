@@ -237,7 +237,8 @@ const Board = () => {
                     window.location.reload();
                 }
             } catch(e) {
-                alert("에러가 발생했습니다.")
+                alert("에러가 발생했습니다.");
+                console.log(e);
             }
         }, []);
 
